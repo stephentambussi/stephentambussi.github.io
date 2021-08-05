@@ -58,6 +58,14 @@ li a:hover:not(.active) {
     flex-direction: column;
 }
 
+#main {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 #bio {
     display: flex;
     flex: 25%;
