@@ -44,12 +44,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-    color: rgb(0, 173, 241);
+    color: rgb(25, 109, 139);
 }
 
 .active {
-    font-size: 40px;
-    color: rgb(25, 109, 139);
+    font-size: 32px;
+    color: rgb(0, 173, 241);
 }
 
 #wrapper {
