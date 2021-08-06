@@ -46,7 +46,6 @@ li a:hover:not(.active) {
 
 #WD {
     display: flex;
-    flex: 50%;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
@@ -86,5 +85,6 @@ li a:hover:not(.active) {
 }
 
 div ul {
-
+    font-family: sans-serif;
+    color: white;
 }
