@@ -58,27 +58,27 @@ div.WD {
     transform: scale(.5);
 }
 
-#position {
+.position {
     color: white;
     font-size: 20px;
 }
 
-#date {
+.date {
     color: white;
     font-size: 16px;
 }
 
-#hard-skills {
+.hard-skills {
     color: white;
     font-size: 14px;
 }
 
-#soft-skills {
+.soft-skills {
     color: white;
     font-size: 14px;
 }
 
-#description {
+.description {
     color: white;
     font-size: 14px;
 }
