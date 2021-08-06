@@ -45,13 +45,13 @@ li a:hover:not(.active) {
     font-family: sans-serif
 }
 
-#WD {
-    display: block;
+#experience {
+    display: flex;
     align-items: center;
 }
 
-.inner_div {
-    padding: 0px;
+div.WD {
+    font-family: sans-serif;
 }
 
 #WD-Logo {
