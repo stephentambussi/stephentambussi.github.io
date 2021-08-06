@@ -46,8 +46,9 @@ li a:hover:not(.active) {
 }
 
 #WD {
-    display: block;
+    display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .inner_div {
