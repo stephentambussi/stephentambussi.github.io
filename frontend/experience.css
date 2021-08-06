@@ -63,22 +63,13 @@ li a:hover:not(.active) {
     color: white;
 }
 
-#WD_Text {
+#wd-modal {
     display: flex;
     flex: 50%;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
     font-family: sans-serif
-}
-
-#position2 {
-    display: flex;
-    flex: 50%;
-    align-items: center;
-    flex-direction: column;
-    font-size: 20px;
-    color: white;
 }
 
 #date {
@@ -101,6 +92,16 @@ li a:hover:not(.active) {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
+/* Modal header */
+.modal-header {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+}
+
 /* Modal content */
 .modal-content {
     margin: auto;
@@ -109,20 +110,8 @@ li a:hover:not(.active) {
     max-height: 1000px;
 }
 
-/* Modal caption */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
 /* Animation */
-.modal-content, #caption {
+.modal-header, .modal-content {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
