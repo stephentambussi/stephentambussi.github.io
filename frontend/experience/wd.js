@@ -3,12 +3,13 @@ var modal = document.getElementById("modal");
 
 // Get image and insert it inside modal -- uses alt text as caption
 var img = document.getElementById("WD");
-var modalImg = document.getElementById("img_src");
+var description = document.getElementById("WD_Text")
+var modalText = document.getElementById("text_src");
 var captionText = document.getElementById("caption");
 img.onclick = function()
 {
     modal.style.display = "block";
-    modalImg.src = this.src;
+    modalText.innerHTML = description;
     captionText.innerHTML = this.alt;
 }
 
