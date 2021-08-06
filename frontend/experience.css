@@ -42,13 +42,11 @@ li a:hover:not(.active) {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    font-family: sans-serif
 }
 
 #WD {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: block
 }
 
 .inner_div {
