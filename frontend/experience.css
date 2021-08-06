@@ -1,6 +1,6 @@
 body {
     margin-top: 90px;
-    background-color: rgb(117, 114, 114);
+    background-color: rgb(117, 114, 114)
 }
 header {
     background-color: #333;
@@ -44,7 +44,7 @@ li a:hover:not(.active) {
     flex-direction: column;
 }
 
-#main {
+#WD {
     display: flex;
     flex: 50%;
     align-items: center;
@@ -52,35 +52,40 @@ li a:hover:not(.active) {
     justify-content: flex-start;
 }
 
-#bio {
-    display: flex;
-    flex: 25%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(48, 48, 47);
-}
-
 .inner_div {
     padding: 10px;
 }
 
-#photo {
+#WD-Logo {
     transform: scale(.8);
 }
 
-#name {
+#position {
     color: white;
-    font-size: 32px;
-}
-
-#title {
     font-size: 20px;
-    color: white;
 }
 
-#info {
-    font-size: 16px;
+#date {
     color: white;
+    font-size: 16px;
+}
+
+#hard-skills {
+    color: white;
+    font-size: 14px;
+}
+
+#soft-skills {
+    color: white;
+    font-size: 14px;
+}
+
+#description-title {
+    color: white;
+    font-size: 14px;
+}
+
+#description {
+    color: white;
+    font-size: 14px;
 }
