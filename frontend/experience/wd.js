@@ -9,6 +9,7 @@ var captionText = document.getElementById("caption");
 img.onclick = function()
 {
     modal.style.display = "block";
+    description.style.display = "block";
     modalText.innerHTML = description;
     captionText.innerHTML = this.alt;
 }
