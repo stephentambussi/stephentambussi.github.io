@@ -46,7 +46,8 @@ li a:hover:not(.active) {
 }
 
 #WD {
-    display: block
+    display: block;
+    align-items: center;
 }
 
 .inner_div {
