@@ -21,10 +21,12 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() 
 {
     modal.style.display = "none";
+    description.style.display = "none";
 }
 
 document.addEventListener('keydown', (event) => {
     if (event.key == 'Escape') {
         modal.style.display = "none";
+        description.style.display = "none";
     }
 });
