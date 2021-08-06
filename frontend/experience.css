@@ -54,7 +54,7 @@ li a:hover:not(.active) {
 }
 
 #WD-Logo {
-    transform: scale(.8);
+    transform: scale(.5);
 }
 
 #position {
