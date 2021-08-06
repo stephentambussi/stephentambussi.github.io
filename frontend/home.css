@@ -17,7 +17,7 @@ header *{
     display: inline;
 }
 header ul {
-    position: relative;
+    position: sticky;
     font-family: sans-serif;
 }
 header li {

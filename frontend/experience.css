@@ -17,7 +17,7 @@ header *{
     display: inline;
 }
 header ul {
-    position: relative;
+    position: sticky;
     font-family: sans-serif;
 }
 header li {
@@ -80,12 +80,11 @@ li a:hover:not(.active) {
     font-size: 14px;
 }
 
-#description-title {
+#description {
     color: white;
     font-size: 14px;
 }
 
-#description {
-    color: white;
-    font-size: 14px;
+div ul {
+
 }
