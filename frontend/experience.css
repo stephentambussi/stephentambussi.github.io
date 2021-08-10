@@ -84,23 +84,27 @@ li a:hover:not(.active) {
 
 /* Modal header */
 .modal-header {
-    /*font-size: 20px;*/
-    top: 20;
+    font-size: 20px;
+    left: 0;
+    top: 15;
     color: white;
 }
 
 /* Modal content */
 .modal-content {
     font-size: 16px;
+    left: 5;
     color: white;
 }
 
 #hard {
     font-size: 20px;
+    text-decoration: underline;
 }
 
 #soft {
     font-size: 20px;
+    text-decoration: underline;
 }
 
 #responsibilities {
