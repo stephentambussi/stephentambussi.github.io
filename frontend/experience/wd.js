@@ -1,7 +1,7 @@
 
 var modal = document.getElementById("wd-modal");
 
-// Get text and insert it inside modal
+// Get image and insert it inside modal
 var img = document.getElementById("WD");
 
 img.onclick = function()
