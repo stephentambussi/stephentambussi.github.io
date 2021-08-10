@@ -63,20 +63,6 @@ li a:hover:not(.active) {
     color: white;
 }
 
-#wd-modal {
-    display: flex;
-    flex: 50%;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-family: sans-serif
-}
-
-#date {
-    font-size: 16px;
-    color: white;
-}
-
 /* Modal background */
 .modal {
     display: none; /* Hidden by default */
@@ -90,12 +76,12 @@ li a:hover:not(.active) {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.9);
+    font-family: sans-serif;
 }
 
 /* Modal header */
 .modal-header {
     display: block;
-    margin: auto;
     font-size: 20px;
     color: white;
 }
