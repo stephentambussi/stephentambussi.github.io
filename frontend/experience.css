@@ -91,9 +91,8 @@ li a:hover:not(.active) {
 
 /* Modal content */
 .modal-content {
-    margin: auto;
-    transform: scale(1.01);
-    max-height: 1000px;
+    
+    color: white;
 }
 
 /* Animation */
