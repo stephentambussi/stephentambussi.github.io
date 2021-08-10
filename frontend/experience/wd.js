@@ -1,12 +1,15 @@
 
 var modal = document.getElementById("wd-modal");
 
-// Get image and insert it inside modal
+var hard_skills = document.getElementById("hard-skills");
+
+// Get image object and use it to expand text
 var img = document.getElementById("WD");
 
 img.onclick = function()
 {
     modal.style.display = "flex";
+    hard_skills.style.display = "inline-flex";
 }
 
 // Get span element to close modal
