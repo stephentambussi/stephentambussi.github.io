@@ -72,9 +72,8 @@ li a:hover:not(.active) {
     position: fixed; /* so it won't move */
     z-index: 1; /* On top of everything */
     padding-top: 100px;
-    padding: 10px; /*test*/
     left: 0;
-    top: 0;
+    top: 50;
     width: 100%;
     height: 100%;
     overflow: auto; /* Enable scroll if needed */
@@ -91,7 +90,7 @@ li a:hover:not(.active) {
 
 /* Modal content */
 .modal-content {
-    
+
     color: white;
 }
 
