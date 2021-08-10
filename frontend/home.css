@@ -42,6 +42,7 @@ li a:hover:not(.active) {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 #main {
