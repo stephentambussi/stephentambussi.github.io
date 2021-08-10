@@ -66,6 +66,7 @@ li a:hover:not(.active) {
 /* Modal background and general modal formatting */
 .modal {
     display: none; /* Hidden by default */
+    flex-wrap: wrap;
     flex: 50%;
     align-items: center;
     flex-direction: column;
@@ -92,6 +93,18 @@ li a:hover:not(.active) {
 .modal-content {
     font-size: 16px;
     color: white;
+}
+
+#hard {
+    font-size: 18px;
+}
+
+#soft {
+    font-size: 18px;
+}
+
+#responsibilities {
+    font-size: 18px;
 }
 
 /* Animation */
