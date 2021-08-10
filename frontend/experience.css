@@ -94,15 +94,14 @@ li a:hover:not(.active) {
 
 /* Modal header */
 .modal-header {
-    flex: 50%;
-    align-items: center;
-    flex-direction: column;
+    display: block;
     font-size: 20px;
     color: white;
 }
 
 /* Modal content */
 .modal-content {
+    display: block;
     margin: auto;
     transform: scale(1.01);
     max-height: 1000px;
