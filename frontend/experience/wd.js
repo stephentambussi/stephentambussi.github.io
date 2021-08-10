@@ -6,7 +6,7 @@ var img = document.getElementById("WD");
 
 img.onclick = function()
 {
-    modal.style.display = "block";
+    modal.style.display = "flex";
 }
 
 // Get span element to close modal
