@@ -84,8 +84,8 @@ li a:hover:not(.active) {
 
 /* Modal header */
 .modal-header {
-    font-size: 20px;
-    top: 30;
+    /*font-size: 20px;*/
+    top: 20;
     color: white;
 }
 
@@ -96,16 +96,15 @@ li a:hover:not(.active) {
 }
 
 #hard {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #soft {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #responsibilities {
-    left: 5;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Animation */
