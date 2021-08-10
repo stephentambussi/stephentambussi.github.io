@@ -63,13 +63,13 @@ li a:hover:not(.active) {
     color: white;
 }
 
-/* Modal background */
+/* Modal background and general modal formatting */
 .modal {
     display: none; /* Hidden by default */
-    /* position: fixed; /* so it won't move */
     flex: 50%;
     align-items: center;
     flex-direction: column;
+    position: fixed; /* so it won't move */
     z-index: 1; /* On top of everything */
     padding-top: 100px;
     left: 0;
