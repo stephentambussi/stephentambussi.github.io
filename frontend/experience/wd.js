@@ -1,7 +1,7 @@
 
 var modal = document.getElementById("wd-modal");
 
-var hard_skills = document.getElementById("hard-skills");
+var skills = document.getElementById("skills");
 
 // Get image object and use it to expand text
 var img = document.getElementById("WD");
@@ -9,7 +9,7 @@ var img = document.getElementById("WD");
 img.onclick = function()
 {
     modal.style.display = "flex";
-    hard_skills.style.display = "inline-flex";
+    skills.style.display = "inline-flex";
 }
 
 // Get span element to close modal
