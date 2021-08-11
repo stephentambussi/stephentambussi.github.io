@@ -1,5 +1,5 @@
 body {
-    margin-top: 90px;
+    /* margin-top: 90px; */
     background-color: rgb(117, 114, 114);
 }
 header {
@@ -72,7 +72,6 @@ li a:hover:not(.active) {
 }
 
 #photo {
-    /* transform: scale(.8); */
     max-width: 100%;
     height: auto;
 }
