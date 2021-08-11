@@ -1,5 +1,4 @@
 body {
-    margin-top: 90px;
     background-color: rgb(117, 114, 114);
     overflow-y: auto;
 }
@@ -156,12 +155,12 @@ li a:hover:not(.active) {
 /* if screen size is 600px wide or less */
 @media screen and (max-width: 600px) {
     header * {
-        font-size: 4vw;
-    }
-    .active {
         font-size: 4.5vw;
     }
+    .active {
+        font-size: 5vw;
+    }
     .modal {
-        font-size: 3vw; /* test */
+        font-size: 3vw;
     }
 }

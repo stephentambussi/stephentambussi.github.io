@@ -1,5 +1,4 @@
 body {
-    /* margin-top: 90px; */
     background-color: rgb(117, 114, 114);
 }
 header {
@@ -87,7 +86,7 @@ li a:hover:not(.active) {
 }
 
 #info {
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: white;
 }
 
@@ -96,9 +95,18 @@ li a:hover:not(.active) {
 /* if screen size is 600px wide or less */
 @media screen and (max-width: 600px) {
     header * {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
     .active {
+        font-size: 5vw;
+    }
+    #name {
+        font-size: 5vw;
+    }
+    #title {
         font-size: 4.5vw;
+    }
+    #info {
+        font-size: 4vw;
     }
 }
