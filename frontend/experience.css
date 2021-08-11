@@ -152,13 +152,13 @@ li a:hover:not(.active) {
 
 /* if screen size is 600px wide or less */
 @media screen and (max-width: 600px) {
-    header {
-        font-size: 3vw;
-    }
-    .active {
+    header * {
         font-size: 3.5vw;
     }
+    .active {
+        font-size: 4vw;
+    }
     .modal {
-        width: 50%; /* test */
+        font-size: 3vw; /* test */
     }
 }

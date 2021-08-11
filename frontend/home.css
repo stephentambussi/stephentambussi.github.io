@@ -88,3 +88,15 @@ li a:hover:not(.active) {
     font-size: 16px;
     color: white;
 }
+
+/* mobile friendly */
+
+/* if screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    header * {
+        font-size: 3.5vw;
+    }
+    .active {
+        font-size: 4vw;
+    }
+}
