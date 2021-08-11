@@ -1,6 +1,7 @@
 body {
     margin-top: 90px;
-    background-color: rgb(117, 114, 114)
+    background-color: rgb(117, 114, 114);
+    overflow-y: auto;
 }
 header {
     background-color: rgb(51, 51, 51);
@@ -40,7 +41,7 @@ li a:hover:not(.active) {
     font-size: 2.5vw;
     color: rgb(0, 173, 241);
 }
-/* Everything above this comment should remain the same */
+/* Everything above this comment should remain relatively the same */
 
 #WD_Wrapper {
     position: absolute;
