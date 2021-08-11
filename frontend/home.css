@@ -16,7 +16,7 @@ header {
 header *{
     display: inline;
     font-size: 2vw;
-    overflow: auto;
+    overflow-x: auto;
     white-space: nowrap;
 }
 header ul {
