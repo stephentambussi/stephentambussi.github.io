@@ -15,6 +15,7 @@ header {
 }
 header *{
     display: inline;
+    font-size: 1vw;
 }
 header ul {
     position: -webkit-sticky;
@@ -33,7 +34,7 @@ li a:hover:not(.active) {
     color: rgb(25, 109, 139);
 }
 .active {
-    font-size: 24px;
+    font-size: 2vw;
     color: rgb(0, 173, 241);
 }
 /* Everything above this comment should remain the same */
