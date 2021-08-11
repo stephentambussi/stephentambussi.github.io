@@ -9,14 +9,15 @@ header {
     left: 0;
     right: 0;
     position: fixed;
-    display: inline-block;
+    display: flex;
     align-items: center;
     z-index: 99;
 }
 header *{
     display: inline;
     font-size: 2vw;
-    overflow-x: auto;
+    overflow: auto;
+    white-space: nowrap;
 }
 header ul {
     position: -webkit-sticky;
