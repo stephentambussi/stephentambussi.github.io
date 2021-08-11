@@ -17,6 +17,7 @@ header *{
     display: inline;
     font-size: 2vw;
     overflow-x: auto;
+    overflow-y: hidden;
     white-space: nowrap;
 }
 header ul {
@@ -94,9 +95,9 @@ li a:hover:not(.active) {
 /* if screen size is 600px wide or less */
 @media screen and (max-width: 600px) {
     header * {
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
     .active {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 }
