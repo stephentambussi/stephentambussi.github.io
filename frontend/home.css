@@ -106,7 +106,7 @@ li a:hover:not(.active) {
 
 #github {
     position: absolute;
-    top: 30%;
+    top: 27%;
     left: 2%;
 }
 
@@ -156,6 +156,10 @@ li a:hover:not(.active) {
     }
     .active {
         font-size: 5vw;
+    }
+    #photo {
+        max-width: 50%;
+        height: auto;
     }
     #name {
         font-size: 5vw;
