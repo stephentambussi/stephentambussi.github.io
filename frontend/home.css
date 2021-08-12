@@ -94,20 +94,30 @@ li a:hover:not(.active) {
 
 /* Animation */
 #wrapper {
-    -webkit-animation-name: slideup;
+    -webkit-animation-name: fadeInUp;
     -webkit-animation-duration: 0.6s;
-    animation-name: slideup;
+    animation-name: fadeInUp;
     animation-duration: 0.6s;
 }
 
-@-webkit-keyframes slideup {
-    from {-webkit-transform:translate(0, 100%)}
-    to {-webkit-transform:translate(0, 0)}
+@-webkit-keyframes fadeInUp {
+    from {
+        -webkit-transform:translate(0, 100%)
+    }
+    to {
+        -webkit-transform:translate(0, 0);
+        opacity: 1
+    }
 }
 
-@keyframes slideup {
-    from {transform:translate(0, 100%)}
-    to {transform:translate(0, 0)}
+@keyframes fadeInUp {
+    from {
+        transform:translate(0, 100%)
+    }
+    to {
+        transform:translate(0, 0);
+        opacity: 1
+    }
 }
 
 /* Mobile friendly */
