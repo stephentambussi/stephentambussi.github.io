@@ -158,7 +158,7 @@ li a:hover:not(.active) {
         font-size: 5vw;
     }
     #photo {
-        max-width: 50%;
+        max-width: 75%;
         height: auto;
     }
     #name {
