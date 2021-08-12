@@ -144,7 +144,8 @@ li a:hover:not(.active) {
 
 @-webkit-keyframes fadeInUp {
     from {
-        -webkit-transform:translate(0, 100%)
+        -webkit-transform:translate(0, 100%);
+        opacity: 0
     }
     to {
         -webkit-transform:translate(0, 0);
@@ -154,7 +155,8 @@ li a:hover:not(.active) {
 
 @keyframes fadeInUp {
     from {
-        transform:translate(0, 100%)
+        transform:translate(0, 100%);
+        opacity: 0
     }
     to {
         transform:translate(0, 0);
