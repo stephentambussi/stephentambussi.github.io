@@ -99,6 +99,11 @@ li a:hover:not(.active) {
     left: 20%;
 }
 
+#image {
+    max-width: 25%;
+    height: auto;
+}
+
 #image:hover {opacity: 0.7;}
 
 /* Animation */
