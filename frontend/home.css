@@ -93,9 +93,9 @@ li a:hover:not(.active) {
 }
 
 #linkedin {
-    align-items: left;
+    align-items: center;
     position: absolute;
-    max-width: 100%;
+    max-width: 1%;
     height: auto;
     top: 10%;
     left: 5%;
