@@ -101,12 +101,12 @@ li a:hover:not(.active) {
 }
 
 @-webkit-keyframes slideup {
-    from {-webkit-transform:translate(100%, 0)}
+    from {-webkit-transform:translate(0, 100%)}
     to {-webkit-transform:translate(0, 0)}
 }
 
 @keyframes slideup {
-    from {transform:translate(100%, 0)}
+    from {transform:translate(0, 100%)}
     to {transform:translate(0, 0)}
 }
 
