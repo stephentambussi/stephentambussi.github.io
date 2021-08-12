@@ -95,13 +95,10 @@ li a:hover:not(.active) {
 #linkedin {
     align-items: left;
     position: absolute;
-    top: 50%;
-    left: 20%;
-}
-
-#image {
-    max-width: 25%;
+    max-width: 10%;
     height: auto;
+    top: 10%;
+    left: 50%;
 }
 
 #image:hover {opacity: 0.7;}
