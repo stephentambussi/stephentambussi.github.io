@@ -92,7 +92,35 @@ li a:hover:not(.active) {
     color: white;
 }
 
-/* mobile friendly */
+/* Animation */
+.active {
+    -webkit-animation-name: slideinright;
+    -webkit-animation-duration: 0.6s;
+    animation-name: slideinright;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes slideinright {
+    from {-webkit-transform:translate(-100%, 0)}
+    to {-webkit-transform:translate(0, 0)}
+}
+
+@keyframes slideinright {
+    from {transform:translate(-100%, 0)}
+    to {transform:translate(0, 0)}
+}
+
+@-webkit-keyframes slideinleft {
+    from {-webkit-transform:translate(100%, 0)}
+    to {-webkit-transform:translate(0, 0)}
+}
+
+@keyframes slideinleft {
+    from {transform:translate(100%, 0)}
+    to {transform:translate(0, 0)}
+}
+
+/* Mobile friendly */
 
 /* if screen size is 600px wide or less */
 @media screen and (max-width: 600px) {
