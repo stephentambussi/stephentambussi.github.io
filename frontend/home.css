@@ -92,6 +92,15 @@ li a:hover:not(.active) {
     color: white;
 }
 
+#linkedin {
+    align-items: left;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+#image:hover {opacity: 0.7;}
+
 /* Animation */
 #wrapper {
     -webkit-animation-name: fadeInUp;
