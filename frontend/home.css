@@ -94,28 +94,18 @@ li a:hover:not(.active) {
 
 /* Animation */
 #body {
-    -webkit-animation-name: slideinright;
+    -webkit-animation-name: slideup;
     -webkit-animation-duration: 0.6s;
-    animation-name: slideinright;
+    animation-name: slideup;
     animation-duration: 0.6s;
 }
 
-@-webkit-keyframes slideinright {
-    from {-webkit-transform:translate(-100%, 0)}
-    to {-webkit-transform:translate(0, 0)}
-}
-
-@keyframes slideinright {
-    from {transform:translate(-100%, 0)}
-    to {transform:translate(0, 0)}
-}
-
-@-webkit-keyframes slideinleft {
+@-webkit-keyframes slideup {
     from {-webkit-transform:translate(100%, 0)}
     to {-webkit-transform:translate(0, 0)}
 }
 
-@keyframes slideinleft {
+@keyframes slideup {
     from {transform:translate(100%, 0)}
     to {transform:translate(0, 0)}
 }
