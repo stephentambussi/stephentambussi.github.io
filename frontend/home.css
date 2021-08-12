@@ -104,6 +104,12 @@ li a:hover:not(.active) {
     left: 2%;
 }
 
+#github {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
 #image {
     max-width: 6%;
     height: auto;
@@ -112,7 +118,7 @@ li a:hover:not(.active) {
 #image:hover {opacity: 0.7;}
 
 /* Animation */
-#wrapper {
+#wrapper, .links {
     -webkit-animation-name: fadeInUp;
     -webkit-animation-duration: 1s;
     animation-name: fadeInUp;
@@ -159,5 +165,9 @@ li a:hover:not(.active) {
     }
     #info {
         font-size: 4vw;
+    }
+    #image {
+        max-width: 10%;
+        height: auto;
     }
 }
