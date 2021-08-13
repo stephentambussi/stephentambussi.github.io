@@ -161,7 +161,7 @@ li a:hover:not(.active) {
     #photo {
         max-width: 75%;
         height: auto;
-        padding: 20px;
+        padding: 30px;
     }
     #name {
         font-size: 5vw;
