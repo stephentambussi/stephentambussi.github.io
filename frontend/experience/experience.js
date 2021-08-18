@@ -1,5 +1,6 @@
 
 var modal = document.getElementsByClassName("modal");
+var wd_modal = document.getElementById("wd-modal");
 
 var skills = document.getElementsByClassName("skills");
 
@@ -13,7 +14,7 @@ var img3 = document.getElementsById("M");
 
 btn[0].onclick = function()
 {
-    modal[0].style.display = "flex";
+    wd_modal.style.display = "flex";
     skills[0].style.display = "inline-flex";
     body[0].style.overflowY = "hidden";
 }
