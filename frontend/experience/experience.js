@@ -6,11 +6,12 @@ var skills = document.getElementsByClassName("skills");
 var body = document.getElementsByClassName("body");
 
 // Get image object and use it to expand text
-var img1 = document.getElementById("WD");
+// var img1 = document.getElementById("WD");
+var btn = document.getElementsByClassName("open-modal");
 var img2 = document.getElementsById("SCU");
 var img3 = document.getElementsById("M");
 
-img1.onclick = function()
+btn[0].onclick = function()
 {
     modal[0].style.display = "flex";
     skills[0].style.display = "inline-flex";
