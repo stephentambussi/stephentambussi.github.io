@@ -8,7 +8,6 @@ for (var i = 0; i < btns.length; i++) {
     thisBtn.addEventListener("click", function () {
         var modal = document.getElementById(this.dataset.modal);
         modal.style.display = "flex";
-        modal.style.overflowY = "hidden";
     }, false);
 }
 
@@ -21,17 +20,14 @@ var spans = document.getElementsByClassName("close");
 spans[0].onclick = function() 
 {
     modals[0].style.display = "none";
-    //body.style.overflowY = "auto";
 }
 
 spans[1].onclick = function() 
 {
     modals[1].style.display = "none";
-    //body.style.overflowY = "auto";
 }
 
 spans[2].onclick = function() 
 {
     modals[2].style.display = "none";
-    //body.style.overflowY = "auto";
 }
