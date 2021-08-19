@@ -212,9 +212,9 @@ li a:hover:not(.active) {
 
 /* Close button */
 .close {
-    position: absolute; /* Maybe change this to relative or sticky */
+    position: absolute;
     top: 95px;
-    right: 45px;
+    right: 5%;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
