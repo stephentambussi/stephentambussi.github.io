@@ -54,7 +54,7 @@ li a:hover:not(.active) {
     cursor: pointer;
     transition: 0.3s;
     padding: 10px;
-    border: 3px solid rgb(0, 0, 0);
+    /* border: 3px solid rgb(0, 0, 0); */
 }
 
 #SCU_Wrapper {
@@ -67,7 +67,7 @@ li a:hover:not(.active) {
     cursor: pointer;
     transition: 0.3s;
     padding: 10px;
-    border: 3px solid rgb(0, 0, 0);
+    /* border: 3px solid rgb(0, 0, 0); */
 }
 
 #Marvell_Wrapper {
@@ -80,7 +80,7 @@ li a:hover:not(.active) {
     cursor: pointer;
     transition: 0.3s;
     padding: 10px;
-    border: 3px solid rgb(0, 0, 0);
+    /* border: 3px solid rgb(0, 0, 0); */
 }
 
 #WD:hover, #SCU:hover, #M:hover {opacity: 0.7;}
@@ -209,7 +209,7 @@ li a:hover:not(.active) {
 
 /* Close button */
 .close {
-    position: sticky; /* Maybe change this to relative or sticky */
+    position: relative; /* Maybe change this to relative or sticky */
     top: 95px;
     right: 35px;
     color: #f1f1f1;
