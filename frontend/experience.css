@@ -47,43 +47,40 @@ li a:hover:not(.active) {
 #WD_Wrapper {
     position: relative;
     float: left;
-    left: 60px;
     font-family: sans-serif;
 }
 
 #WD {
     cursor: pointer;
     transition: 0.3s;
-    padding: 1px;
-    border: 3px solid rgb(83, 83, 83);
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 #SCU_Wrapper {
     position: relative;
     float: left;
-    left: 60px;
     font-family: sans-serif;
 }
 
 #SCU {
     cursor: pointer;
     transition: 0.3s;
-    padding: 1px;
-    border: 3px solid rgb(83, 83, 83);
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 #Marvell_Wrapper {
     position: relative;
     float: left;
-    left: 60px;
     font-family: sans-serif;
 }
 
 #M {
     cursor: pointer;
     transition: 0.3s;
-    padding: 1px;
-    border: 3px solid rgb(83, 83, 83);
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 #WD:hover, #SCU:hover, #M:hover {opacity: 0.7;}
@@ -212,7 +209,7 @@ li a:hover:not(.active) {
 
 /* Close button */
 .close {
-    position: absolute; /* Maybe change this to relative or sticky */
+    position: sticky; /* Maybe change this to relative or sticky */
     top: 95px;
     right: 35px;
     color: #f1f1f1;
