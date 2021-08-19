@@ -54,6 +54,7 @@ li a:hover:not(.active) {
     cursor: pointer;
     transition: 0.3s;
     padding: 10px;
+    background-color: rgb(117, 114, 114)
     /* border: 3px solid rgb(0, 0, 0); */
 }
 
@@ -67,6 +68,7 @@ li a:hover:not(.active) {
     cursor: pointer;
     transition: 0.3s;
     padding: 10px;
+    background-color: rgb(117, 114, 114)
     /* border: 3px solid rgb(0, 0, 0); */
 }
 
@@ -80,6 +82,7 @@ li a:hover:not(.active) {
     cursor: pointer;
     transition: 0.3s;
     padding: 10px;
+    background-color: rgb(117, 114, 114)
     /* border: 3px solid rgb(0, 0, 0); */
 }
 
@@ -209,9 +212,9 @@ li a:hover:not(.active) {
 
 /* Close button */
 .close {
-    position: relative; /* Maybe change this to relative or sticky */
+    position: absolute; /* Maybe change this to relative or sticky */
     top: 95px;
-    right: 35px;
+    right: 45px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
