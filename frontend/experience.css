@@ -234,10 +234,6 @@ li a:hover:not(.active) {
     transition: 0.3s;
 }
 
-#pdf-close {
-    color:rgb(51, 51, 51);
-}
-
 .close:hover, .close:focus {
     color: #bbb;
     text-decoration: none;
@@ -256,5 +252,11 @@ li a:hover:not(.active) {
     }
     .modal {
         font-size: 3vw;
+    }
+    #pdf-close {
+        color:rgb(51, 51, 51)
+    }
+    #resume {
+        width: 100%;
     }
 }
