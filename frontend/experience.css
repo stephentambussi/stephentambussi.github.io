@@ -44,6 +44,19 @@ li a:hover:not(.active) {
 }
 /* Everything above this comment should remain relatively the same */
 
+#PDF_Wrapper {
+    position: relative;
+    float: left;
+    font-family: sans-serif;
+}
+
+#PDF {
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+    background-color: rgb(117, 114, 114)
+}
+
 #WD_Wrapper {
     position: relative;
     float: left;
@@ -86,7 +99,7 @@ li a:hover:not(.active) {
     /* border: 3px solid rgb(0, 0, 0); */
 }
 
-#WD:hover, #SCU:hover, #M:hover {opacity: 0.7;}
+#PDF:hover, #WD:hover, #SCU:hover, #M:hover {opacity: 0.7;}
 
 #Company {
     display: flex;
@@ -159,7 +172,7 @@ li a:hover:not(.active) {
     animation-duration: 1s;
 }
 
-#WD_Wrapper, #SCU_Wrapper, #Marvell_Wrapper {
+#PDF_Wrapper, #WD_Wrapper, #SCU_Wrapper, #Marvell_Wrapper {
     -webkit-animation-name: fadeInUp;
     -webkit-animation-duration: 1s;
     animation-name: fadeInUp;

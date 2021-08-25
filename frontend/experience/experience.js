@@ -31,3 +31,8 @@ spans[2].onclick = function()
 {
     modals[2].style.display = "none";
 }
+
+spans[3].onclick = function()
+{
+    modals[3].style.display = "none";
+}
