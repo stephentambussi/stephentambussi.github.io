@@ -59,7 +59,7 @@ li a:hover:not(.active) {
 
 #WD_Wrapper {
     position: relative;
-    float: left;
+    float: right;
     font-family: sans-serif;
 }
 
@@ -73,7 +73,7 @@ li a:hover:not(.active) {
 
 #SCU_Wrapper {
     position: relative;
-    float: left;
+    float: right;
     font-family: sans-serif;
 }
 
@@ -87,7 +87,7 @@ li a:hover:not(.active) {
 
 #Marvell_Wrapper {
     position: relative;
-    float: left;
+    float: right;
     font-family: sans-serif;
 }
 
