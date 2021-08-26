@@ -69,7 +69,7 @@ li a:hover:not(.active) {
 
 /* Hyperlink settings */
 div a:link {
-    color: blue;
+    color: rgb(25, 109, 139);
     background-color: transparent;
     text-decoration: none;
 }
@@ -79,7 +79,7 @@ div a:visited {
     text-decoration: underline;
 }
 div a:hover {
-    color: purple;
+    color: rgb(0, 173, 241);
     background-color: transparent;
     text-decoration: none;
 }
