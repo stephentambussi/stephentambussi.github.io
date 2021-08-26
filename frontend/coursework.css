@@ -63,6 +63,23 @@ li a:hover:not(.active) {
     background-color: rgb(48, 48, 47);
 }
 
+/* Hyperlink settings */
+div a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+div a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+div a:hover {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 /* Animation */
 #wrapper {
     -webkit-animation-name: fadeInUp;
