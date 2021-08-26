@@ -74,7 +74,7 @@ div a:link {
     text-decoration: none;
 }
 div a:visited {
-    color: blue;
+    color: rgb(25, 109, 139);
     background-color: transparent;
     text-decoration: underline;
 }
