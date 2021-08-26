@@ -257,6 +257,9 @@ li a:hover:not(.active) {
     .active {
         font-size: 5vw;
     }
+    #Big_Wrapper {
+        justify-content: center;
+    }
     .modal {
         font-size: 3vw;
     }
