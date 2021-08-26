@@ -49,6 +49,24 @@ li a:hover:not(.active) {
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+    color: white; /* maybe change individual colors later */
+}
+
+#hard-skills {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills {
+    display: flex;
+    flex: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(48, 48, 47);
 }
 
 /* Animation */
