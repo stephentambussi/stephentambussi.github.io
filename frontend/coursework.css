@@ -1,0 +1,106 @@
+body {
+    margin-top: 90px;
+    margin-right: 0px;
+    background-color: rgb(117, 114, 114);
+}
+header {
+    background-color: rgb(51, 51, 51);
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+}
+header *{
+    display: inline;
+    font-size: 1.5vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+header ul {
+    position: -webkit-sticky;
+    font-family: sans-serif;
+}
+header li {
+    padding: 20px;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 16px;
+}
+li a:hover:not(.active) {
+    color: rgb(25, 109, 139);
+}
+.active {
+    font-size: 2vw;
+    color: rgb(0, 173, 241);
+}
+/* Everything above this comment should remain relatively the same */
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: white; /* maybe change individual colors later */
+}
+
+.courses {
+    display: flex;
+    flex: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(48, 48, 47);
+}
+
+/* Animation */
+#wrapper {
+    -webkit-animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        -webkit-transform:translate(0, 50%);
+        opacity: 0
+    }
+    to {
+        -webkit-transform:translate(0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform:translate(0, 50%);
+        opacity: 0
+    }
+    to {
+        transform:translate(0, 0);
+        opacity: 1
+    }
+}
+
+/* Mobile friendly */
+
+/* if screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    header * {
+        font-size: 4.5vw;
+    }
+    .active {
+        font-size: 5vw;
+    }
+}
