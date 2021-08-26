@@ -44,6 +44,11 @@ li a:hover:not(.active) {
 }
 /* Everything above this comment should remain relatively the same */
 
+#Big_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #PDF_Wrapper {
     position: relative;
     float: none;
@@ -147,6 +152,7 @@ li a:hover:not(.active) {
 .skills {
     font-size: 16px;
     left: 5;
+    display: inline-flex;
     flex-direction: row;
     color: white;
 }
