@@ -57,6 +57,7 @@ li a:hover:not(.active) {
     flex: 25%;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 40px;
     align-items: center;
     flex-direction: column;
     background-color: rgb(48, 48, 47);
