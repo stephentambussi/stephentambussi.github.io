@@ -63,6 +63,10 @@ li a:hover:not(.active) {
     background-color: rgb(48, 48, 47);
 }
 
+.title {
+    font-size: 20px;
+}
+
 /* Hyperlink settings */
 div a:link {
     color: blue;
