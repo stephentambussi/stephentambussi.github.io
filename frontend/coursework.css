@@ -65,6 +65,11 @@ li a:hover:not(.active) {
 
 .title {
     font-size: 20px;
+    align-items: center;
+}
+
+.description {
+    align-items: center;
 }
 
 /* Hyperlink settings */
