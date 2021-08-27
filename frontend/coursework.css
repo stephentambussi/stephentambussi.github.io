@@ -65,10 +65,12 @@ li a:hover:not(.active) {
 
 .title {
     font-size: 20px;
+    display: flex;
     align-items: center;
 }
 
 .description {
+    display: flex;
     align-items: center;
 }
 
