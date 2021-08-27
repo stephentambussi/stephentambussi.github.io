@@ -128,4 +128,10 @@ div a:hover {
     .active {
         font-size: 5vw;
     }
+    .title {
+        font-size: 4.5vw;
+    }
+    .description {
+        font-size: 4vw;
+    }
 }
