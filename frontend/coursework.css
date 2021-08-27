@@ -64,14 +64,11 @@ li a:hover:not(.active) {
 }
 
 .title {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
+    font-size: 2vw;
 }
 
 .description {
-    display: flex;
-    align-items: center;
+    font-size: 1.5vw;
 }
 
 /* Hyperlink settings */
