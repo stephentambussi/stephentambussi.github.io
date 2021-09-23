@@ -1,49 +1,312 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephen Tambussi's Website</title>
-    <link rel="stylesheet" type="text/css" href="/frontend/home.css"/>
-</head>
-<body id="body">
-    <header>
-            <nav>
-                <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="/frontend/experience.html">Experience</a></li>
-                    <li><a href="/frontend/skills.html">Skills</a></li>
-                    <li><a href="/frontend/coursework.html">Selected Coursework</a></li>
-                    <li><a href="/frontend/projects.html">Projects</a></li>
-                </ul>
-            </nav>
-    </header>
-
-    <div class="links">
-        <div id="linkedin">
-            <a href="https://www.linkedin.com/in/stephen-tambussi-7775a2176/">
-                <img id="image" src="/media/linkedin_logo.png" alt="logo">
-            </a>
-        </div>
-        <div id="github">
-            <a href="https://github.com/stephentambussi">
-                <img id="image" src="/media/github_logo.png" alt="logo">
-            </a>
-        </div>
-    </div>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="computer.ico">  
     
-    <div id="wrapper">
-        <div id="main">
-            <div class="inner_div">
-                <img id="photo" src="/media/profile_pic.png" alt="me">
-            </div>
-            <div class="inner_div" id="name">Stephen Tambussi</div>
-            <div class="inner_div" id="title">Computer Science and Engineering Student</div>
-        </div>
-        <div id="bio">
-            <div class="inner_div" id="info">My name is Stephen Tambussi and this is my portfolio website. It acts like an interactive resume and includes my experience, coursework, and personal projects.</div>
-            <div class="inner_div" id="info">Currently, I am an undergraduate student studying computer engineering at Santa Clara University where I will also be pursuing a Masters in the same area.</div>
-            <div class="inner_div" id="info">I am interested in Machine Learning, graphical technologies, and data security.</div>
-        </div>
-    </div>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" />
+		            <div class="profile-content">
+		                <h1 class="name">Stephen Tambussi</h1>
+		                <h2 class="desc">Computer Science & Engineering Student</h2>   
+		                <ul class="social list-inline">
+		                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/stephen-tambussi-7775a2176/"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://github.com/stephentambussi"><i class="fab fa-github-alt"></i></a></li>                 
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	                <a class="btn btn-cta-primary" href="assets/images/Resume.pdf" target="_blank" download><i class="fas fa-file"></i> Resume</a>        
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I am a current undergraduate student studying computer science and engineering at Santa Clara University where I will also be pursuing a Masters in the same major.
+                                I have internship experience at Marvell Semiconductor and Western Digital. My interests are in machine learning, cybersecurity, and computer graphics.
+                            </p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Systems Design Engineering Intern - <span class="place"><a href="https://www.westerndigital.com/">Western Digital</a></span> <span class="year">(June 2021 - September 2021)</span></h3>
+                                <p>As a member of the FWQA Test Development team, I contributed to the development of the testing software used to validate WDC's enterprise SSD products.</p>
+                                <button type="button" class="collapsible">Responsibilities</button>
+                                <div class="collapsible-content">
+                                    <ul>
+                                        <li>Implemented new tests, features, and improved adherence to the NVMe specification for testing software.</li>
+                                        <li>Resolved multiple bugs/regressions in the testing software that enhanced performance and reliability.</li>
+                                        <li>Updated test documentation and plans in accordance with any software changes.</li>
+                                    </ul>
+                                </div>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Undergraduate Research Assistant - <span class="place"><a href="https://www.scu.edu/engineering/labs--research/labs/bioinnovation-and-design-lab/">SCU BioInnovation & Design Lab</a></span> <span class="year">(September 2020 - June 2021)</span></h3>
+                                <p>In collaboration with Varian Medical Systems, I assisted in the development of machine learning classifiers that can detect and label CT image artifacts resulting from medical implants.</p>
+                                <button type="button" class="collapsible">Accomplishments</button>
+                                <div class="collapsible-content">
+                                    <ul>
+                                        <li>Improved classification accuracy of previous machine learning project that identifies contrast agents in brain MRI scans by a substantial margin.</li>
+                                        <li>Implemented new methods of evaluation for machine learning models constrained by limited input data.</li>
+                                    </ul>
+                                </div>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Firmware Intern - <span class="place"><a href="https://www.marvell.com/">Marvell Semiconductor</a></span> <span class="year">(June 2020 - September 2020)</span></h3>
+                                <p>As a firmware intern in the Security Solutions group of Marvell Semiconductor, I worked on the LiquidSecurity Hardware Security Module (HSM) adapters to enhance product development.</p>
+                                <button type="button" class="collapsible">Responsibilities</button>
+                                <div class="collapsible-content">
+                                    <ul>
+                                        <li>Implemented and validated a new program testing mode for the LiquidSecurity HSM adapters that reduced product development time.</li>
+                                        <li>Automated the secure transfer of customer files during the testing phase of the HSM adapters to enable immediate deployment in customer data centers.</li>
+                                        <li>Collaborated with senior engineers to debug programs and implement new features of the project.</li>
+                                    </ul>
+                                </div>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Selected Coursework</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">COEN 140 - <span class="place"><a href="https://github.com/stephentambussi/SCU/tree/master/COEN140">Machine Learning & Data Mining</a></span> <span class="year">(Spring 2021)</span></h3>
+                                <p>Introduction to the basics of ML. Topics covered such as regression, K-means clustering, gradient descent, Neural Networks, CNN, and Principal Component Analysis (PCA). Code written in Python using Tensorflow and Numpy.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">COEN 177 - <span class="place"><a href="https://github.com/stephentambussi/SCU/tree/master/COEN177">Operating Systems</a></span> <span class="year">(Spring 2021)</span></h3>
+                                <p>Introduction to computer operating systems. Concepts covered such as process management, interprocess communication, synchronization, memory management, file systems, I/O, threading, and the storage hierarchy. 
+                                    Code written in C along with Bash script for automation.</p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">COEN 146 - <span class="place"><a href="https://github.com/stephentambussi/SCU/tree/master/COEN146">Computer Networks</a></span> <span class="year">(Winter 2021)</span></h3>
+                                <p>A course centered around data networking. Concepts covered such as circuit & packet switching, bandwidth/latency, 5-layer model for networking: Physical, data-link, network, transport, and application layers, and network security. 
+                                    Code written in C.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">COEN 171 - <span class="place"><a href="https://github.com/stephentambussi/SCU/tree/master/COEN171">Principles of Design and Implementation of Programming Languages</a></span> <span class="year">(Fall 2020)</span></h3>
+                                <p>Fundamental programming-language concepts and constructs. Topics covered such as the issues/trade-offs in the design and implementation of programming languages and the 4 major programming paradigms. Code written in each paradigm as follows: 
+                                    Imperative - C | Object-Oriented - C++/Smalltalk | Functional - ML/Scheme | Logical - Prolog.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">COEN 148 - <span class="place"><a href="https://github.com/stephentambussi/SCU/tree/master/COEN148">Computer Graphics Systems</a></span> <span class="year">(Fall 2020)</span></h3>
+                                <p>Introduction to computer graphics rendering. Topics covered such as graphical primitives, modeling, efficiency analysis, three-dimensional transformations/viewing, hidden surface removal, ray-tracing, and the graphics pipeline. 
+                                    Code written in Python with Numpy.</p>
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="https://github.com/stephentambussi/SCU"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+
+                <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://www.scu.edu/engineering/undergraduate/senior-design/" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/scu_engineering.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://www.scu.edu/engineering/undergraduate/senior-design/" target="_blank">SCU Senior Design 2022</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p>The senior design project has just started! Come back soon for more information on my project.</p>
+                                </div><!--//desc-->         
+                                <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fas fa-thumbs-up"></i>Button</a> -->                 
+                            </div><!--//item-->
+                            <hr class="divider" />
+
+                            <!-- 
+                                <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Example project</a></h3>
+                                    <p class="mb-2">Explain project here.</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div>                       
+                            </div>
+                            -->
+
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Santa Clara, US</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">stambussi@scu.edu</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://github.com/stephentambussi</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">My primary skills are C programming, Linux, and Bash from my courses at Santa Clara University and experience at Marvell Semiconductor. 
+                                However, I have experience in Python and Tensorflow from my research. Check the tooltips for more information on each skill.</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">C &amp; C++<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="C & C++ are the primary languages of my courses at SCU. 
+                                        I also programmed in C for my internship at Marvell."><i class="fas fa-info-circle"></i>Expert</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Linux &amp; Bash<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Linux systems and Bash script are also used in my classes at SCU. 
+                                        At Marvell, I worked on Linux systems and wrote Bash scripts."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Python &amp; Java<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Python and Java were the first languages I learned. 
+                                        I used Python and Java for my internship at Western Digital."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 90%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Tensorflow &amp; Keras<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="I used Tensorflow and Keras with Python for my research.
+                                        For my machine learning course at SCU, I also used these technologies with Python."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 85%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <p><a class="more-link" href="https://github.com/stephentambussi"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Computer Science & Engineering</h3>
+                                <h4 class="university">Santa Clara University <span class="year">(2021-2023)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Computer Science & Engineering</h3>
+                                <h4 class="university">Santa Clara University <span class="year">(2018-2022)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="testimonials aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fas fa-quote-left"></i>I had a great experience working with Stephen. He is proficient in C programming and shell scripting. He is hardworking and motivated
+                                    and is an excellent resource.</p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Biju Abraham</span><br /><span class="title">Senior Software Engineer</span></p>                                                             
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="https://www.linkedin.com/in/stephen-tambussi-7775a2176/"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
