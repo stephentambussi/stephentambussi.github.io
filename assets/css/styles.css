@@ -741,8 +741,8 @@ body[data-theme="dark"] .experience .item .title {
 
 /* List UI for dark mode -- BEGIN */
 body[data-theme="dark"] .collapsible {
-  background-color: #1e2124;
-  color: rgba(255, 255, 255, 0.7); /* TODO: see if you should change this */
+  background-color: #2e3238;
+  color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -753,15 +753,11 @@ body[data-theme="dark"] .collapsible {
   font-size: 14px;
 }
 
-body[data-theme="dark"] .active, .collapsible:hover {
-  background-color: #2e3238;
-}
-
 body[data-theme="dark"] .collapsible-content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #1e2124;
+  background-color: #2e3238;
 }
 
 body[data-theme="dark"] .list ul li {
@@ -773,12 +769,14 @@ body[data-theme="dark"] .list ul li .svg-inline--fa {
 }
 
 body[data-theme="dark"] .list ul li a {
-  color: #778492; /* TODO: see if you should change this */
+  color: rgba(255, 255, 255, 0.7); /* TODO: see if you should change this */
 }
 
+/*
 body[data-theme="dark"] .list ul li a:hover {
   color: #2e3238;
 }
+*/
 
 /* List UI for dark mode -- END */
 
