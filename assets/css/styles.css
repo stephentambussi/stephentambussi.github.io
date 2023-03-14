@@ -729,11 +729,16 @@ body[data-theme="dark"] .section .section-inner {
   color: rgba(255, 255, 255, 0.7);
 }
 
+body[data-theme="dark"] .collapsible .collapsible-content {
+  background: #1e2124;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 body[data-theme="dark"] .section .heading {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme="dark"] .experience .item .title .collapsible {
+body[data-theme="dark"] .experience .item .title {
   color: rgba(255, 255, 255, 0.9);
 }
 
