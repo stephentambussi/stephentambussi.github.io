@@ -733,7 +733,7 @@ body[data-theme="dark"] .section .heading {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme="dark"] .experience .item .title {
+body[data-theme="dark"] .experience .item .title .collapsible {
   color: rgba(255, 255, 255, 0.9);
 }
 
