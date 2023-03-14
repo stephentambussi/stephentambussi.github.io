@@ -769,14 +769,8 @@ body[data-theme="dark"] .list ul li .svg-inline--fa {
 }
 
 body[data-theme="dark"] .list ul li a {
-  color: rgba(255, 255, 255, 0.7); /* TODO: see if you should change this */
+  color: rgba(255, 255, 255, 0.7);
 }
-
-/*
-body[data-theme="dark"] .list ul li a:hover {
-  color: #2e3238;
-}
-*/
 
 /* List UI for dark mode -- END */
 
