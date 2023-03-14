@@ -654,6 +654,8 @@ a.dotted-link:hover {
   color: #fb866a;
 }
 
+/* ======= Dark Mode ======= */
+
 .dark-mode-switch {
   margin-bottom: 1rem;
 }
@@ -729,11 +731,6 @@ body[data-theme="dark"] .section .section-inner {
   color: rgba(255, 255, 255, 0.7);
 }
 
-body[data-theme="dark"] .collapsible .collapsible-content {
-  background: #1e2124;
-  color: rgba(255, 255, 255, 0.7);
-}
-
 body[data-theme="dark"] .section .heading {
   color: rgba(255, 255, 255, 0.9);
 }
@@ -741,6 +738,49 @@ body[data-theme="dark"] .section .heading {
 body[data-theme="dark"] .experience .item .title {
   color: rgba(255, 255, 255, 0.9);
 }
+
+/* List UI for dark mode -- BEGIN */
+body[data-theme="dark"] .collapsible {
+  background-color: #1e2124;
+  color: rgba(255, 255, 255, 0.7); /* TODO: see if you should change this */
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: solid;
+  border-color: #2e3238;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+}
+
+body[data-theme="dark"] .active, .collapsible:hover {
+  background-color: #2e3238;
+}
+
+body[data-theme="dark"] .collapsible-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #1e2124;
+}
+
+body[data-theme="dark"] .list ul li {
+  margin-bottom: 10px;
+}
+
+body[data-theme="dark"] .list ul li .svg-inline--fa {
+  margin-right: 5px;
+}
+
+body[data-theme="dark"] .list ul li a {
+  color: #778492; /* TODO: see if you should change this */
+}
+
+body[data-theme="dark"] .list ul li a:hover {
+  color: #2e3238;
+}
+
+/* List UI for dark mode -- END */
 
 body[data-theme="dark"] .testimonials .item .quote {
   color: rgba(255, 255, 255, 0.9);
